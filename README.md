@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Vinicius Maia</h1>
 
-## Getting Started
+<p align="center">
+  Analista de suporte de TI · Infraestrutura de redes · AWS e Cloud · Desenvolvimento web<br>
+  Cotia/SP · Fundador da <a href="https://vitrapi.com">Vitrapi</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="https://www.linkedin.com/in/vini-maia">LinkedIn</a> ·
+  <a href="https://github.com/vinihmaia">GitHub</a> ·
+  <a href="mailto:viniciusmaia_2022@hotmail.com">E-mail</a>
+</p>
+
+---
+
+## Sobre
+
+Este é o meu portfólio. Ele reúne em uma página só:
+
+- os projetos que eu criei e que estão no ar;
+- a minha experiência em suporte de TI e redes;
+- a formação em Ciência da Computação e os certificados.
+
+## Projetos em destaque
+
+| Projeto | O que é | Endereço |
+|---|---|---|
+| [Buzinou](https://github.com/vinihmaia/buzinou) | SaaS para vans escolares: contratos assinados pelo celular, mensalidades com Pix e rota do dia | [painel.vitrapi.com](https://painel.vitrapi.com) |
+| [Vitrapi](https://github.com/vinihmaia/Vitrapi) | Site do meu negócio, com ferramentas grátis e o caminho da proposta ao Pix | [vitrapi.com](https://vitrapi.com) |
+| [LV Cakes](https://github.com/vinihmaia/lvcakes) | Delivery de bolo de pote no condomínio, com painel da loja | [lvcakes.vitrapi.com](https://lvcakes.vitrapi.com) |
+| [Site da Van PV](https://github.com/vinihmaia/tiapatricia) | Landing page de van escolar com rota no mapa | [tiapatricia.vercel.app](https://tiapatricia.vercel.app) |
+
+## Tecnologias
+
+- **Next.js 16** (App Router) e **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- Letras Inter e JetBrains Mono, carregadas pelo `next/font`
+- Hospedagem na **Vercel**
+
+## Estrutura
+
+| Arquivo | O que tem |
+|---|---|
+| `app/dados.ts` | **Todos os textos**: projetos, experiência, certificados e competências. Para atualizar o portfólio, é só mexer aqui. |
+| `app/page.tsx` | A página, que monta as seções a partir do `dados.ts` |
+| `app/layout.tsx` | Título, descrição para o Google e a prévia do link |
+| `app/globals.css` | Cores e estilos gerais |
+| `public/` | Foto e imagens |
+
+## Rodar no computador
+
+Com o [Node.js](https://nodejs.org) instalado, dentro da pasta:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install     # baixa as bibliotecas do projeto (só na primeira vez)
+npm run dev     # abre o site em http://localhost:3000 e atualiza sozinho a cada mudança
+npm run build   # monta a versão final e mostra se tem algum erro antes de publicar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Autor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Vinícius Maia da Silva** · [LinkedIn](https://www.linkedin.com/in/vini-maia) · [GitHub](https://github.com/vinihmaia) · [Instagram](https://www.instagram.com/vinihmaia) · viniciusmaia_2022@hotmail.com
